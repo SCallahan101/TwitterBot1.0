@@ -1,7 +1,7 @@
 const twit = require("twit");
 const config = require("./config.js");
 
-const Twitter = new Twitter(config);
+const Twitter = new twit(config);
 
 let retweet = function(){
     let params = {
