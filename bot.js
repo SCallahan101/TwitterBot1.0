@@ -5,7 +5,7 @@ const Twitter = new twit(config);
 
 let retweet = function(){
     let params = {
-        q: "#ThePracticalDev, #CodeNewbies",
+        q: "#DEVCommunity, #CodeNewbie, #Developer",
         result_type: "recent",
         lang: "en"
     }
